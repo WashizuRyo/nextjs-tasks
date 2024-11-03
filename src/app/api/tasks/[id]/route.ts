@@ -17,6 +17,8 @@ export const GET = async (
       );
     }
 
+    // /test
+
     return NextResponse.json({ message: "タスク取得成功", task });
   } catch (error) {
     console.log(error);
